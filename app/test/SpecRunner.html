@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Jasmine Spec Runner v2.0.0</title>
+
+    <link rel="shortcut icon" type="image/png" href="../../libs/jasmine/jasmine_favicon.png">
+    <link rel="stylesheet" type="text/css" href="../../libs/jasmine/jasmine.css">
+
+    <script type="text/javascript" src="../../libs/jasmine/jasmine.js"></script>
+    <script type="text/javascript" src="../../libs/jasmine/jasmine-html.js"></script>
+    <script type="text/javascript" src="../../libs/jasmine/boot.js"></script>
+
+    <script data-main="specRunner" src="../../libs/require.js"></script>
+
+</head>
+<body>
+
+     <data-container style="display:none">
+        <data-component id="revenue">
+        </data-component>
+    </data-container>
+
+    
+
+    <script type="text/javascript">
+
+    require([
+        '../test/spec/d3Manipulation.spec',
+        '../test/spec/dataApi.spec',
+        '../test/spec/dataObject.spec',
+        '../test/spec/domManipulation.spec',
+        '../test/spec/graphicComponent.spec',
+        '../test/spec/legendComponent.spec',
+        '../test/spec/utils.spec'
+    ],
+      function() {
+          window.onload();
+      });
+
+  </script>
+
+</body>
+</html>

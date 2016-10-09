@@ -1,0 +1,63 @@
+body {
+  background: #fff;
+	font-family: sans-serif;
+}
+svg{
+	stroke: #000;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.main-title{
+	stroke: #c6c6c6;
+	
+}
+.main-total{
+	stroke: #3a3a3a;
+	font-size:18pt;
+}
+div.data-container{
+	margin: 0 auto;
+	width:990px;
+}
+data-component{
+	width:270px;
+	float:left;
+	border-bottom:2px solid #e2e2e2;
+	margin:30px;
+}
+.data-legend{
+	float:left;
+	width:100%;
+	margin-bottom:6px;
+	font-size:10pt;
+}
+.data-legend .data-box{
+	float:left;
+	width:50%;
+}
+.data-legend .data-box .data-header{
+	float:left;
+	width:100%;
+	font-weight:bold;
+}
+.data-legend .data-box .data-subheader{
+	float:left;
+	padding:5px 0px;
+}
+.data-legend .data-box.data-Smartphone {
+	text-align:right;
+}
+.data-legend .data-box.data-Smartphone .data-header{
+ text-align:right;
+}
+.data-legend .data-box.data-Smartphone .data-subheader{
+	display:inline-block;
+	text-align:right;
+	float:none;
+}
+.data-legend .data-box .data-subheader.data-total{
+	color:#c3c3c3;
+}
+.data-legend .data-box .data-subheader.data-percentage{
+	color:#3a3a3a;
+	margin-right:10px;
+}
